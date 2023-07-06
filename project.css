@@ -1,0 +1,787 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    background-color: #787f8a;
+    margin:0%;
+    padding: 0px;
+    height: 70px;
+    background-size: 40px;
+    text-align: justify;
+    position:relative;
+    width:100%;
+}
+.navbar-links{
+    display:flex;
+    gap: 40px;
+    list-style-type: none;
+    
+}
+ 
+nav{
+    padding-left: 390px;
+    margin-top: 10px;
+    
+    
+}
+.cara-logo{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+a:hover{
+    border-bottom: 3px solid rgb(32, 218, 205);
+    color:solid rgb(32, 218, 205) ;
+}
+a:hover{
+    color: rgb(15, 217, 200);
+}
+
+i:hover{
+    color: rgb(32, 218, 205);
+}
+
+
+/* Banner starts Here */
+
+.banner img{
+    width: 100%;
+    object-fit: cover;
+    position:relative;
+    
+}
+.banner-text{
+
+    position: absolute;
+    top: 120px;
+    left: 5%;
+}
+.line1{
+   color:rgb(249, 250, 250);
+   font-weight: bold;
+   font-size: 36px;
+   position:relative;
+   top:15px;
+   
+    
+}
+.line2{
+    color: solid black;
+    font-weight: bold;
+    font-size: 60px;
+    position: relative;
+    top: 10px;
+     
+    
+}
+.line3{
+    color: #088F8F;
+    font-weight: bold;
+    font-size:56px;
+    position: relative;
+    top: 10px;
+}
+.line4{
+    color:rgb(35, 37, 35);
+    font-size: 15px;
+    font-weight: bold;
+}
+ .button{
+    position: relative;
+    top: 35px;
+    left: 65px;
+    border: none;
+    background-color: transparent;
+    color: #088F8F;
+    font-weight: bold;
+    font-size: medium;
+ }
+/* Banner ends here */
+
+/* cards start here */
+
+ .cards{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 15px;
+
+ }
+ .carditems{
+    height: 170px;
+    width: 150px;
+    background-color: white;
+    margin: 15px;
+    border: 0.1px solid rgb(229, 225, 225);
+    border-radius: 3px;
+    
+    
+    
+ }
+.f1{
+    margin-top: 10px;
+}
+#button1{
+    border: none;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: rgba(199, 162, 199, 0.775);
+    
+}
+.f2{
+    margin-right: 10px;
+    padding-right:5px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+#button2{
+    border: none;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: rgba(114, 181, 147, 0.775);
+}
+.f3{
+    margin-right: 10px;
+    padding-right:5px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+#button3{
+    border: none;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: rgba(119, 208, 235, 0.775);
+}
+.f4{
+    margin-right: 10px;
+    padding-right:5px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+#button4{
+    border: none;
+    margin-left: 30px;
+    margin-top: 15px;
+     background-color: rgba(170, 146, 232, 0.775);
+}
+
+.f5{
+    margin-right: 10px;
+    padding-right:5px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+#button5{
+    border: none;
+    margin-left: 40px;
+    margin-top: 15px;
+     background-color: rgba(185, 126, 208, 0.775);
+}
+
+.f6{
+    margin-right: 10px;
+    padding-right:5px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+#button6{
+    border: none;
+    margin-left: 30px;
+    margin-top: 15px;
+     background-color:bisque;
+}
+
+/* cards end here */
+/* Featured products starts here*/
+ h1{
+    text-align:center;
+    /* font-weight: bold; */
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align: center;
+    font-size:15px;
+    position: relative;
+    bottom: 20px;
+}
+ 
+/*  Featured products Endshere */
+.items{
+    height: 300px;
+    width: 240px;
+    background-color:rgb(210, 218, 224);
+    margin: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+    margin-left: 15px;
+}
+.products1>img{
+    height: 200px;
+    width: 210px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 14px;   
+}
+.items>h4{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    color: darkgrey;
+    font-weight: bold;
+}
+.items>p{
+    position: relative;
+    bottom: 45px;
+    font-weight: bold;
+    font-size: 14px;
+    left: 20px;
+}
+.rating i{
+   position: relative;
+   bottom: 60px;
+   left: 20px;
+   
+}
+/* price starts here*/
+.price{
+    display: flex;
+    position: relative;
+    bottom: 95px;
+    color: #088F8F;
+    font-size: 25px;
+    left: 20px;
+    gap: 135px;
+}
+.cart{
+    border: none;
+    background:none;
+    color: #088F8F;   
+}
+/* price ends here */
+.items1{
+    height: 300px;
+    width: 240px;
+    background-color:rgb(210, 218, 224);
+    margin: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.container1{
+    display: flex;
+    margin-left: 15px;
+}
+.products1>img{
+    height: 200px;
+    width: 210px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 14px;   
+}
+.items1>h4{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    color: darkgrey;
+    font-weight: bold;
+}
+.items1>p{
+    position: relative;
+    bottom: 45px;
+    font-weight: bold;
+    font-size: 14px;
+    left: 20px;
+}
+.rating i{
+   position: relative;
+   bottom: 60px;
+   left: 20px;
+   
+}
+/* price starts here*/
+.price{
+    display: flex;
+    position: relative;
+    bottom: 95px;
+    color: #088F8F;
+    font-size: 25px;
+    left: 20px;
+    gap: 135px;
+}
+.cart{
+    border: none;
+    background:none;
+    color: #088F8F;   
+}
+/* Featured produts ends here */
+/* banner-2 starts here */
+.banner2>img{
+    width: 1121px;
+    margin-left: 0.1px;
+    height: 200px;
+}
+.text{
+    text-align: center;
+    color: aliceblue;
+}
+.text p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text p2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    
+
+
+}
+.text button{
+    border-radius: 5px;
+    height: 45px;
+    width: 130px;
+    border: none;
+}
+.banner2{
+    position: relative;
+    top: 20px;
+    
+}
+.text{
+    position: relative;
+    bottom: 180px;
+
+}
+/* Banner-2 ends here */
+/* new arrivals starts here */
+.newarrivals{
+    position: relative;
+    bottom: 140px;
+}
+.newarrivals h2{
+    color:rgb(101, 175, 146);
+}
+/* new arrivals ends here */
+/*new Arrival products */
+.items2{
+    height: 300px;
+    width: 240px;
+    background-color:rgb(213, 218, 221);
+    margin: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.container2{
+    display: flex;
+    margin-left: 15px;
+    position: relative;
+    bottom: 150px;
+}
+.products2>img{
+    height: 200px;
+    width: 210px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 14px;   
+}
+.items2>h4{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    color: darkgrey;
+    font-weight: bold;
+}
+.items2>p{
+    position: relative;
+    bottom: 45px;
+    font-weight: bold;
+    font-size: 14px;
+    left: 20px;
+}
+.rating i{
+   position: relative;
+   bottom: 60px;
+   left: 20px;
+   
+}
+/* price starts here*/
+.price{
+    display: flex;
+    position: relative;
+    bottom: 95px;
+    color: #088F8F;
+    font-size: 25px;
+    left: 20px;
+    gap: 135px;
+}
+.cart{
+    border: none;
+    background:none;
+    color: #088F8F;   
+}
+/* 0000000000000000000000000000000 */
+.items3{
+    height: 300px;
+    width: 240px;
+    background-color:rgb(213, 218, 221);
+    margin: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.container3{
+    display: flex;
+    margin-left: 15px;
+    position: relative;
+    bottom: 150px;
+}
+.products3>img{
+    height: 200px;
+    width: 210px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 14px;   
+}
+.items3>h4{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    color: darkgrey;
+    font-weight: bold;
+}
+.items3>p{
+    position: relative;
+    bottom: 45px;
+    font-weight: bold;
+    font-size: 14px;
+    left: 20px;
+}
+.rating i{
+   position: relative;
+   bottom: 60px;
+   left: 20px;
+   
+}
+/* price starts here*/
+.price{
+    display: flex;
+    position: relative;
+    bottom: 95px;
+    color: #088F8F;
+    font-size: 25px;
+    left: 20px;
+    gap: 135px;
+}
+.cart{
+    border: none;
+    background:none;
+    color: #088F8F;   
+}
+/* new Arrival products ends here */
+
+/* offer-cards starts here */
+.offer-cards{
+    display: flex;
+    gap: 0px;
+    position: relative;
+    bottom: 100px;
+}
+.offercard1{
+    height: 250px;
+    width:500px;
+    border:none;
+    margin: 20px;
+    margin-left: 40px;
+    
+}
+.offercard2{
+    height: 250px;
+    width:500px;
+    margin: 20px;
+    margin-right: 30px;
+
+}
+.offercard1>img{
+    height: 250px;
+    width:500px;
+    
+}
+.offercard2>img{
+    height: 250px;
+    width:500px;
+}
+.offercard1 p5{
+    position: relative;
+    bottom: 200px;
+    color: whitesmoke;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+ .offercard1 p6{
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+ position: relative;
+ bottom: 210px;
+ margin-left: 20px;
+ color: whitesmoke;
+}
+
+ .offercard1 p7{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 210px;
+    color: whitesmoke;
+    margin-left: 20px;
+  }
+
+.learnmore{
+    position: relative;
+    bottom: 210px;
+    margin-left: 20px;
+  }
+  .learnmore>button{
+    height: 45px;
+    width: 110px;
+    background: transparent;
+    border-color: azure;
+    color: whitesmoke;
+  }
+
+  .offercard2 p8{
+    position: relative;
+    bottom: 200px;
+    color: whitesmoke;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+ .offercard2 p9{
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+ position: relative;
+ bottom: 200px;
+ margin-left: 20px;
+ color: whitesmoke;
+}
+
+ .offercard2 p10{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 200px;
+    color: whitesmoke;
+    margin-left: 20px;
+  }
+
+.col-button{
+    position: relative;
+    bottom: 205px;
+    margin-left: 20px;
+  }
+  .col-button>button{
+    height: 45px;
+    width: 110px;
+    background: transparent;
+    border-color: azure;
+    color: whitesmoke;
+  }
+/* offer-cards ends here */
+/* smallcards starts here */
+.smallcards{
+    display: flex;
+    gap: 18px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 90px;
+    margin-right: 25px;
+}
+.smallcards img{
+    height: 200px;
+    width: 335px;
+}
+
+
+.smallcards p11{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+    bottom: 125px;
+    margin-left: 20px;
+}
+.smallcards p12{
+    font-size:14px;
+    color: rgb(116, 18, 18);
+    font-weight: bold;
+    position: relative;
+    bottom: 125px;
+    margin-left: 20px;
+}
+
+.smallcards p13{
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+    bottom: 150px;
+    margin-left: 20px;
+}
+
+.smallcards p14{
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+    bottom: 135px;
+    margin-left: 20px;
+}
+.smallcards p15{
+    font-size:13px;
+    color: rgb(116, 18, 18);
+    font-weight: bold;
+    position: relative;
+    bottom: 130px;
+    margin-left: 20px;
+}
+
+.smallcards p16{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    position: relative;
+    bottom: 155px;
+    margin-left: 20px;
+}
+.smallcards p17{
+    font-size:14px;
+    color: rgb(116, 18, 18);
+    font-weight: bold;
+    position: relative;
+    bottom: 140px;
+    margin-left: 20px;
+}
+/* smallcards starts here */
+/* Banner4 starts here */
+ .b14>img{
+    height: 150px;
+    width: 100%;
+    position: relative;
+    bottom: 140px;
+ } 
+
+ .elements1>p18{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: whitesmoke;
+ }
+
+  .elements1>p19{
+    color: whitesmoke;
+  }
+ .elements2{
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+
+
+ #searchbox{
+    height: 43px;
+    width: 270px;
+    border-bottom-left-radius:  8px;
+    border-top-left-radius: 8px;
+    padding-inline: 20px;
+    border-inline-color: white;
+    border: none;
+    padding-bottom:-8px;
+
+ }
+label{
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 20px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(7, 116, 111);
+    color: whitesmoke;
+    position: relative;
+    margin-left:-4px;
+}
+ .ban1 .bannerelements{
+    display: flex;
+    gap:150px;
+    margin-left: 80px;
+    position: relative;
+    bottom: 250px;
+ }
+/* Banner4 Ends here */
+/* Footer starts here */
+
+.footer1{
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 150px;
+}
+
+.footer1>.icons{
+    position: relative;
+    bottom: 20px;
+}
+pre{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(101, 100, 100);
+    font-size: 14px;
+}
+.pay{
+    /* height: 40px;
+    width: 40px; */
+    display: flex;
+    size: 30px;
+    position:relative; 
+    gap:1px;
+    bottom: 20px;     
+}
+
+.pay #Apay{
+    border: 2px solid rgb(196, 195, 194);
+    border-radius: 5px;
+    
+}
+.pay #gpay{
+    border: 2px solid rgb(196, 195, 194);
+    border-radius: 5px;
+    
+}
+
+/* Footer Ends here */
