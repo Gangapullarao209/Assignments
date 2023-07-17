@@ -1,0 +1,16 @@
+var employeeSalary=90000;
+if(employeeSalary>=80000){
+    console.log("Manager");
+}
+else if(employeeSalary>=69999){
+    console.log("Developer");
+}
+else if(employeeSalary>=59999){
+    console.log("Testing Engineer");
+}
+else if(employeeSalary>=39999){
+    console.log("BPO");
+}
+else{
+    console.log("not an employee");
+}
